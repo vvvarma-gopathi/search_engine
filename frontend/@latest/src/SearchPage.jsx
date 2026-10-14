@@ -4,7 +4,7 @@ import "./SearchPage.css";
 
 
 const API_URL = (
-  import.meta.env.VITE_API_URL || "http://localhost:8000"
+  import.meta.env.VITE_API_URL || "https://search-engine-uxw2.onrender.com"
 ).replace(/\/$/, "");
 
 export default function SearchPage() {
