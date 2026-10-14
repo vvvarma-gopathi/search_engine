@@ -1,0 +1,8 @@
+
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+tavily-python
+google-genai
+tiktoken
