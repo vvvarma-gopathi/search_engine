@@ -3,8 +3,8 @@ import logging
 
 from fastapi import APIRouter, HTTPException
 
-from schemas.search import SearchRequest, SearchResponse
-from services.web_search import search_web
+from app.schemas.search import SearchRequest, SearchResponse
+from app.services.web_search import search_web
 
 router = APIRouter(prefix="/api/v1", tags=["search"])
 logger = logging.getLogger(__name__)

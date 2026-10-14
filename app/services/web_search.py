@@ -5,9 +5,9 @@ from urllib.parse import urlsplit, urlunsplit
 from dotenv import load_dotenv
 from tavily import TavilyClient
 
-from schemas.search import SearchResponse, SearchSource
-from services.content_limiter import limit_content
-from services.planner import generate_queries
+from app.schemas.search import SearchResponse, SearchSource
+from app.services.content_limiter import limit_content
+from app.services.planner import generate_queries
 
 load_dotenv()
 
